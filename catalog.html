@@ -44,23 +44,29 @@
 
     <div class="input-group">
       <form name="sliders">
-        <div class="input-group-title">Сортировка:</div>
+        <div class="input-group-sort">
+          <span class-"input-group-title">Сортировка:</span>
           <select size="1" name="sort">
             <option selected value="popularity">по популярности</option>
             <option value="price">по цене</option>
-          </select></p>
+          </select>
+        </div>  
 
-        <div class="input-group-title">Цена: 100 руб. - 500 руб.</div>
-          <input type="range" min="1" max="5" id="size" value="3"></p>
-        </p>
+      <div class="input-group-range">
+        <span class="input-group-title">Цена: 100 руб. - 500 руб.</span>
+        <input type="range" min="1" max="5" id="size" value="3">
+      </div>
 
-        <div class="input-group-title">Жирность:</div>
+      <div class="input-group-fatness">
+        <span class="input-group-title">Жирность:</span>
           <input type="radio" id="radio1" name="fatness" value="0"><label for="radio1"> 0%</label>
           <input type="radio" id="radio2" checked name="fatness" value="10"><label for="radio2"> до 10%</label>
           <input type="radio" id="radio3" name="fatness" value="30"><label for="radio3"> до 30%</label>
           <input type="radio" id="radio4" name="fatness" value="40"><label for="radio4"> выше 30%</label>
+      </div>
 
-        <div class="input-group-title">Наполнители:</div>
+      <div class="input-group-fill">
+        <span class="input-group-title">Наполнители:</span>
           <input type="checkbox" id="check1" checked name="chokolate" value="chokolate"><label for="check1"> шоколадные</label>
           <input type="checkbox" id="check2" checked name="sugar" value="sugar"><label for="check2"> сахарные присыпки</label>
           <input type="checkbox" id="check3" name="fruits" value="fruits"><label for="check3"> фрукты</label>
@@ -68,6 +74,7 @@
           <input type="checkbox" id="check5" name="jam" value="jam"><label for="check5"> джемы</label>
           <input type="submit" value="Применить">
       </form>
+      </div> 
     </div>
 
       <div class="catalog-center">
@@ -182,13 +189,15 @@
               <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
               <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           </section>
-          <section class="footer-links-left">
-            <a href="#">Для поставщиков</a>
-            <a href="#">О производстве</a>
-          </section>
-          <section class="footer-links-right">
-            <a href="#">Наши документы</a>
-            <a href="#">Экологические стандарты</a> 
+          <section class="footer-links">
+            <section class="footer-links-left">
+              <a href="#">Для поставщиков</a>
+              <a href="#">О производстве</a>
+            </section>
+            <section class="footer-links-right">
+              <a href="#">Наши документы</a>
+              <a href="#">Экологические стандарты</a> 
+            </section>
           </section>
         
         <section class="footer-copyright">
