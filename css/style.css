@@ -31,7 +31,6 @@ h4 {
 }
 
 body {
-width:1200px;
 margin:0;
 padding:0;
 
@@ -49,42 +48,41 @@ background-size: 1200px auto;
 }
 
 .main-header {
-margin-bottom:60px;
+
 }
 
 .container {
 width:1160px;
 margin: 0 auto;
 padding: 0 10px;
-background-color:red;
+background-color:#FE642E;
 }
 
 .main-navigation {
 float: left; 
 width: 880px;
 min-height: 70px;
-background-color:yellow;
+background-color:#F2F5A9;
 }
 
 .user-block {
 float: right;
 width: 280px;
 min-height: 70px;
-background-color:blue;
+background-color:#A9BCF5;
 }
 
 .slider {
 width: 1144px;
 height:554px;
-
 margin: 0 auto;
-background-color:blue;
+background-color:#D8CEF6;
 }
 
 .gifts {
 height:256px;
 width: 1146px;
-background-color:yellow;
+background-color:#F5F6CE;
 margin-top: 16px;
 }
 
@@ -106,11 +104,82 @@ float:right;
 background-color:green;
 height:356px;
 width:1146;
+margin-bottom:10px;
 }
 
 .item-index {
 position:relative;
 display:inline-block;
 vertical-align: top;
-
+width:285px;
+height:285px;
 }
+
+.index-center {
+background-color:yellow;
+height:314px;
+width:1146;
+margin-bottom:38px;
+}
+
+.blog-subscribe {
+background-color:green;
+width:1146px;
+height:222px;
+margin: 0 auto;
+margin-bottom:38px;
+}
+
+.index-left {
+float:left;
+width: 560px;
+height:222px;
+background-color:#BDBDBD;
+}
+
+.index-right {
+float:right;
+width: 560px;
+height:222px;
+background-color:#BDBDBD;
+}
+
+.contacts {
+background-color:#A9D0F5;
+width: 1200px;
+height:430px;
+margin: 0 auto;
+}
+
+.feedback {
+background-color:yellow;
+height:306px;
+width: 304px;
+margin-left: 870px;
+}
+
+.main-footer {
+ background-color:blue;
+ height:102px; 
+ width:1200px;
+ margin: 0 auto;
+}
+
+.footer-social {
+float:left;
+background-color:yellow;
+width:266px;
+}
+
+.footer-links {
+float:left;
+background-color:yellow;
+width:342px;
+margin-right:10px;
+}
+
+.footer-copyright {
+float:right;
+background-color:yellow;
+}
+
