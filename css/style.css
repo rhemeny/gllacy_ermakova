@@ -23,7 +23,6 @@ h3 {
 }
 
 h4 {
-
 	font-family: Roboto;
 	font-weight: normal;
 	font-size: 16px;
@@ -31,13 +30,13 @@ h4 {
 }
 
 body {
-margin:0;
-padding:0;
-
+	margin:0;
+	padding:0;
 }
+
 body {
-background: #000000 url("../img/gllacy_bg_index.jpg") no-repeat 50% 3px;
-background-size: 1200px auto;
+	background: #000000 url("../img/gllacy_bg_catalog.jpg") no-repeat 50% 3px;
+	background-size: 1200px auto;
 }
 
 .clearfix::after {
@@ -52,134 +51,195 @@ background-size: 1200px auto;
 }
 
 .container {
-width:1160px;
-margin: 0 auto;
-padding: 0 10px;
-background-color:#FE642E;
+	width:1160px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color:#FE642E;
 }
 
 .main-navigation {
-float: left; 
-width: 880px;
-min-height: 70px;
-background-color:#F2F5A9;
+	float: left;
+	width: 880px;
+	min-height: 70px;
+	background-color:#F2F5A9;
 }
 
 .user-block {
-float: right;
-width: 280px;
-min-height: 70px;
-background-color:#A9BCF5;
+	float: right;
+	width: 280px;
+	min-height: 70px;
+	background-color:#A9BCF5;
 }
 
 .slider {
-width: 1144px;
-height:554px;
-margin: 0 auto;
-background-color:#D8CEF6;
+	width: 1144px;
+	height:554px;
+	margin: 0 auto;
+	background-color:#D8CEF6;
 }
 
 .gifts {
-height:256px;
-width: 1146px;
-background-color:#F5F6CE;
-margin-top: 16px;
+	height:256px;
+	width: 1146px;
+	background-color:#F5F6CE;
+	margin-top: 16px;
 }
 
 .index-left-raspberries {
-background-color:violet;
-width:560px;
-min-height: 240px;
-float:left;
+	background-color:violet;
+	width:560px;
+	min-height: 240px;
+	float:left;
 }
 
 .index-right-chokolate {
-background-color:violet;
-width:560px;
-min-height: 240px;
-float:right;
+	background-color:violet;
+	width:560px;
+	min-height: 240px;
+	float:right;
 }
 
 .index-center-item {
-background-color:green;
-height:356px;
-width:1146;
-margin-bottom:10px;
+	background-color:green;
+	height:356px;
+	width:1146;
+	margin-bottom:10px;
+	font-size:0px;
 }
 
 .item-index {
-position:relative;
-display:inline-block;
-vertical-align: top;
-width:285px;
-height:285px;
+	position:relative;
+	display:inline-block;
+	vertical-align: top;
+	width:268px;
+	height:268px;
+	font-size:16px;
+	margin-right:28px;
+}
+
+.item-index:last-child{
+	margin-right:0;
 }
 
 .index-center {
-background-color:yellow;
-height:314px;
-width:1146;
-margin-bottom:38px;
+	background-color:yellow;
+	height:314px;
+	width:1146;
+	margin-bottom:38px;
 }
 
 .blog-subscribe {
-background-color:green;
-width:1146px;
-height:222px;
-margin: 0 auto;
-margin-bottom:38px;
+	background-color:green;
+	width:1146px;
+	height:222px;
+	margin: 0 auto;
+	margin-bottom:38px;
 }
 
 .index-left {
-float:left;
-width: 560px;
-height:222px;
-background-color:#BDBDBD;
+	float:left;
+	width: 560px;
+	height:222px;
+	background-color:#BDBDBD;
 }
 
 .index-right {
-float:right;
-width: 560px;
-height:222px;
-background-color:#BDBDBD;
+	float:right;
+	width: 560px;
+	height:222px;
+	background-color:#BDBDBD;
 }
 
 .contacts {
-background-color:#A9D0F5;
-width: 1200px;
-height:430px;
-margin: 0 auto;
+	background-color:#A9D0F5;
+	width: 1200px;
+	height:430px;
+	margin: 0 auto;
 }
 
 .feedback {
-background-color:yellow;
-height:306px;
-width: 304px;
-margin-left: 870px;
+	background-color:yellow;
+	height:306px;
+	width: 304px;
+	margin-left: 870px;
 }
 
 .main-footer {
  background-color:blue;
- height:102px; 
+
  width:1200px;
  margin: 0 auto;
 }
 
 .footer-social {
-float:left;
-background-color:yellow;
-width:266px;
+	float:left;
+	background-color:yellow;
+	width:266px;
 }
 
 .footer-links {
-float:left;
-background-color:yellow;
-width:342px;
-margin-right:10px;
+	background-color:yellow;
+	width:342px;
+	margin: 0 auto;
 }
 
 .footer-copyright {
-float:right;
-background-color:yellow;
+	float:right;
+	background-color:yellow;
 }
 
+.text {
+	width:488px;
+	display: inline-block;
+	position:relative;
+	vertical-align: top;
+}
+
+.breadcrumbs {
+	width:625px;
+	background-color:violet;
+}
+
+.input-group {
+	width: 880px;
+	background-color: blue;
+	margin-bottom: 38px;
+}
+
+.item {
+	position:relative;
+	display:inline-block;
+	vertical-align: top;
+	width:268px;
+	height:344px;
+	font-size:16px;
+	margin-right:26px;
+}
+
+.item:nth-child(4){
+	margin-right:0px;
+}
+
+.item:nth-child(8){
+	margin-right:0px;
+}
+
+.item:nth-child(12){
+	margin-right:0px;
+}
+
+.catalog-center {
+	font-size:0px;
+}
+
+.pagination {
+	float:right;
+	width:200px;
+	background: yellow;
+}
+
+.pagination li {
+	display:inline-block;
+	font-size:16px;
+	color: black;
+}
