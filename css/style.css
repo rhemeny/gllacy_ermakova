@@ -83,6 +83,7 @@ body {
 	width: 1146px;
 	background-color:#F5F6CE;
 	margin-top: 16px;
+	margin: 0 auto;
 }
 
 .index-left-raspberries {
@@ -101,10 +102,11 @@ body {
 
 .index-center-item {
 	background-color:green;
-	height:356px;
-	width:1146;
+	height: 356px;
+	width: 1146px;
 	margin-bottom:10px;
 	font-size:0px;
+	margin:0 auto;
 }
 
 .item-index {
@@ -114,7 +116,7 @@ body {
 	width:268px;
 	height:268px;
 	font-size:16px;
-	margin-right:28px;
+	margin-right:24px;
 }
 
 .item-index:last-child{
@@ -123,7 +125,7 @@ body {
 
 .index-center {
 	background-color:yellow;
-	height:314px;
+	min-height:314px;
 	width:1146;
 	margin-bottom:38px;
 }
