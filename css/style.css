@@ -1398,9 +1398,8 @@ color:white;
 
 }
 
-
 .catalog-center {
-	margin-top: 20px;
+	position:relative;
 
 	font-size:0px;
 }
