@@ -335,6 +335,20 @@ body > input[type="radio"] {
   padding-bottom: 4px;
 }
 
+.button-cart-full::before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  top: 10px;
+
+  width: 22px;
+  height: 22px;
+
+  background: url("../img/cart-full.png");
+  
+}
+
+
 .button-cart::before {
   position: absolute;
   content: "";
@@ -345,20 +359,6 @@ body > input[type="radio"] {
   height: 20px;
 
   background: url("../img/header_cart_white.svg") center no-repeat;
-}
-
-button-cart-full::before {
-  position: absolute;
-  content: "";
-  left: 15px;
-  top: 10px;
-
-  width: 22px;
-  height: 22px;
-
-  background: url("../img/header_cart_white.svg");
-
-
 }
 
 .button-cart-full:hover::before {
