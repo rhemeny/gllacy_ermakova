@@ -19,44 +19,80 @@
 					    <img src="img/logo.svg" width="153" height="63" alt="Gllacy Shop">
 				    </a>
 				    <nav class="main-navigation">
-					    <ul>
-						    <li>
-                  <a href="#">Каталог</a>
+              <ul>
+                <li class="main-item-menu">
+                  <a href="catalog.html">Каталог</a>
                   <ul class="sub-menu">
-                    <li class="main-sub-menu">
+                    <li class="sub-item">
                       <a href="#">Новинки</a>
                     </li>
-                    <li>
+                    <li class="sub-item">
                       <a href="#">Сливочное</a>
                     </li>
-                    <li>
+                    <li class="sub-item">
                       <a href="#">Шербеты</a>
                     </li>
-                    <li>
+                    <li class="sub-item">
                       <a href="#">Фруктовый лед</a>
                     </li>
-                    <li>
+                    <li class="sub-item">
                       <a href="#">Мелорин</a>
-                    </li>
+                    </li>               
                   </ul>
                 </li>
-                <li>
+                <li class="main-item-menu">
                   <a href="#">Доставка и оплата</a>
                 </li>
-                <li>
+                <li class="main-item-menu">
                   <a href="#">О компании</a>
                 </li>
               </ul>
             </nav>
+
             <div class="user-block">
-              <a href= "#" class="button-header button-search">Поиск</a>
-			        <a href="#" class="button-header button-login">Вход</a>
-			        <a href="#" class="button-header button-cart">Пусто</a>
+              <ul class="header-buttons">
+                <li class="header-search">
+                  <a href= "#" class="button-header button-search">Поиск</a>
+                  <div class="header-button-drop-down search-drop-down">
+                    <label class="text-input-label">
+                      <input type="search" name="search" value="" class="text-input" required>
+                      <span class="search-text-input">Что ищем?</span>
+                    </label>
+                  </div>
+                </li>
+
+                <li class="header-login">
+			            <a href="#" class="button-header button-login">Вход</a>
+                  <div class="header-button-drop-down login-drop-down">
+                    <form action="https://echo.htmlacademy.ru" method="post">
+                      <label class="text-input-label">
+                        <input type="email" name="login-email" value="" class="text-input" required>
+                        <span class="search-text-input">Электронная почта</span>
+                      </label>
+                      <label class="text-input-label">
+                        <input type="password" name="login-password" value="" class="text-input" required>
+                        <span class="search-text-input">Пароль</span>
+                      </label>
+                      <div class="login-links">
+                        <a class="login-forget" href="">Забыли пароль?</a><br>
+                        <a class="login-new-registration" href="">Новая регистрация</a>
+                      </div>
+                      <button class="button login-submit" type="submit">Войти</button>
+                    </form>
+                  </div>
+                </li>
+
+
+                <li class="header-cart header-cart-full">
+			          <a href="#" class="button-header button-cart">Пусто</a>
+              </li>
+                
                 <div class="header-schedule">
                   <span>С 10 до 20, ежедневно</span><br>
                   <span class="header-phone"> 8 812 450-25-25</span>
                 </div>
-            </div>
+              </div>
+            </ul> 
           </header>
 
           <main class="main-content">
