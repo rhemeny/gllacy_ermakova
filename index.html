@@ -44,7 +44,7 @@
                   <a href="#">Доставка и оплата</a>
                 </li>
                 <li class="main-item-menu">
-                  <a href="#">О компании</a>
+                  <a href="#">О Компании</a>
                 </li>
               </ul>
             </nav>
@@ -66,7 +66,7 @@
                   <div class="header-button-drop-down login-drop-down">
                     <form action="https://echo.htmlacademy.ru" method="post">
                       <label class="text-input-label">
-                        <input type="email" name="login-email" value="" class="text-input" required>
+                        <input type="text" name="login-email" value="" class="text-input" required>
                         <span class="search-text-input">Электронная почта</span>
                       </label>
                       <label class="text-input-label">
@@ -184,14 +184,18 @@
               <div class="index-right">
 		            <form name="subscription">
                   <p class="subscription-name">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
-                  <input type="email" name="email" value="" placeholder="Электронная почта">
-                  <button class="button" type="submit">Отправить</button>
+                  <label class="text-input-label">
+                        <input type="text" name="login-email" value="" class="text-input" required>
+                        <span class="subscription-text-input">Электронная почта</span>
+                      </label>
+                  <button class="button subscription-button" type="submit">Отправить</button>
                 </form>
 		          </div>
             </section>
 
             <section class="map">
 	            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.599104370521!2d30.320889250941665!3d59.93879418178727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1455972451062" width="1160" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
 	              <div class="feedback">
                   <p>
                     Адрес главного офиса и офлайн магазина:
@@ -207,10 +211,33 @@
                     </span>
                     (с 10 до 20 ежедневно)
                   </p>
-                  <a href="#" class="button">Форма обратной связи</a>
+                  <a href="#" class="button map-contacts-btn">Форма обратной связи</a>
                 </div>
 		          </div>
             </section>
+
+            <div class="popup-window popup-callorder-wrap">
+              <div class="popup-overlay"></div>
+                <div class="popup-content popup-callorder-content">
+                  <button class="popup-close close-button" type="button"></button>
+                  <h3 class="popup-title">Мы обязательно вам ответим!</h3>
+                  <form action="https://echo.htmlacademy.ru" method="post" class="callorder-form clearfix">
+                    <label class="text-input-label label-first">
+                      <input type="text" name="user-name" value="" class="text-input">
+                      <span class="popup-text-input">Как вас зовут?</span>
+                    </label>        
+                    <label class="text-input-label">
+                      <input type="text" name="email" value="" class="text-input">
+                      <span class="popup-text-input">Ваша почта для ответа?</span>
+                    </label>
+                    <label class="text-input-label">
+                      <textarea name="info" cols="40" rows="10" class="text-input text-input-comment"></textarea>
+                      <span class="comment-text-input">Напишите что-нибудь...</span>
+                    </label>
+                    <button class="button" type="submit">Отправить</button>
+                  </form>
+                </div>
+            </div>
           </main>
 	    </div>
     </div>
@@ -240,5 +267,10 @@
       </div>
     </footer>
   </div>
+
+<script src="js/popup.js"></script>
+
+
+
   </body>
 </html>
