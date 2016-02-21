@@ -957,6 +957,7 @@ margin-bottom:40px;
   font-size: 14px;
   position: relative;
   text-align: center;
+  
 }
 
 .catalog-item-icecream:nth-child(4n) {
@@ -964,10 +965,20 @@ margin-bottom:40px;
 }
 
 .catalog-item-icecream .item-content {
-  position: relative;
-  z-index: 2;
+  position: relative; 
+  z-index: 1;
   
 }
+.catalog-item-icecream:hover a, .catalog-item-icecream:hover .item-bg {
+  display: block;
+  z-index: 2;
+}
+
+.catalog-item-icecream:hover .item-content {
+
+  z-index: 4;
+}
+
 
 .preview-catalog {
   display: none;
@@ -977,9 +988,7 @@ margin-bottom:40px;
   left: 10px;
 }
 
-.catalog-item-icecream:hover a, .catalog-item-icecream:hover .item-bg {
-  display: block;
-}
+
 
 
 .item-bg {
@@ -992,13 +1001,13 @@ margin-bottom:40px;
   position: absolute;
   left: -10px;
   top: -10px;
-  z-index: 1;
   box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3); 
 }
 
 .catalog-item-icecream img {
   width: 100%;
   height: auto;
+ 
 }
 
 .catalog-image,
@@ -1222,7 +1231,9 @@ margin-bottom:40px;
   background: rgba(255, 255, 255, 0.1);
 }
 
-
+.header-padding {
+  padding-top: 10px;
+}
 
 .feedback {
   position: relative;
@@ -1262,6 +1273,55 @@ margin-bottom:40px;
 .feedback .button {
   margin-left: 20px;
 }
+
+
+.location{
+    position: relative;
+    top: 0px;
+}
+
+
+.index-contacts {
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  width: 300px;
+  min-height: 305px;
+  z-index: 15;
+
+  background: #ffffff;
+  border-radius:10px;
+}
+
+.index-contacts p {
+  margin-right: 20px;
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #343434;
+}
+
+.contact-details {
+  display: inline-block;
+  width: 250px;
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #343434;
+}
+
+.index-contacts .button {
+  margin-left: 20px;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+
 
 /*----------footer----------*/
 

@@ -53,16 +53,19 @@
               <ul class="header-buttons">
                 <li class="header-search">
                   <a href= "#" class="button-header button-search">Поиск</a>
+                  <div class="header-padding">
                   <div class="header-button-drop-down search-drop-down">
                     <label class="text-input-label">
                       <input type="search" name="search" value="" class="text-input" required>
                       <span class="search-text-input">Что ищем?</span>
                     </label>
                   </div>
+                </div>
                 </li>
 
                 <li class="header-login">
 			            <a href="#" class="button-header button-login">Вход</a>
+                  <div class="header-padding">
                   <div class="header-button-drop-down login-drop-down">
                     <form action="https://echo.htmlacademy.ru" method="post">
                       <label class="text-input-label">
@@ -80,6 +83,7 @@
                       <button class="button login-submit" type="submit">Войти</button>
                     </form>
                   </div>
+                </div>
                 </li>
 
 
@@ -206,13 +210,14 @@
                 </form>
 		          </div>
             </section>
-
-            <section class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991032728616!2d30.323083299999993!3d59.9387942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1441637614882" width="100%" height="420" frameborder="0" style="border:0"></iframe>
-                
-	              <div class="feedback">
-                  <p>
-                    Адрес главного офиса и офлайн магазина:
+          </div>  
+        </div> 
+            <div class="index-map">
+              <div id="yandex-map">
+                <div class="location container">
+              <div class="index-contacts">
+                <p>
+                      Адрес главного офиса и офлайн магазина:
                     <span class="contact-details">
                       ул. Больная Конюшенная <br>
                       19/8, Санкт-Петербург
@@ -226,9 +231,12 @@
                     (с 10 до 20 ежедневно)
                   </p>
                   <a href="#" class="button map-contacts-btn">Форма обратной связи</a>
-                
-		          </div>
-            </section>
+                </div>
+               </div> 
+            </div>
+          </div>
+       </main> 
+
 
             <div class="popup-window popup-callorder-wrap">
               <div class="popup-overlay"></div>
@@ -252,9 +260,9 @@
                   </form>
                 </div>
             </div>
-          </main>
+          
 	    </div>
-    </div>
+    
 
     <footer class="main-footer">
       <div class="container clearfix">
@@ -283,6 +291,7 @@
   </div>
 
 <script src="js/popup.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=nEdU6VhkGzx7uqCeeOkLqGtDXtF18RUa&amp;width=100%&amp;height=430&amp;id=yandex-map&amp;lang=ru_RU&amp;sourceType=constructor"></script>
 
 
 
