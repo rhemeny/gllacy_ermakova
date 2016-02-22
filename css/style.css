@@ -353,7 +353,6 @@ body > input[type="radio"] {
 
 }
 
-
 .button-cart::before {
   position: absolute;
   content: "";
@@ -443,8 +442,6 @@ body > input[type="radio"] {
   background: url("../img/header_login_black.svg") center no-repeat;
 }
 
-
-
 /*----------search----------*/
 
 .header-search:hover .search-drop-down {
@@ -504,7 +501,6 @@ body > input[type="radio"] {
   margin-left: 3px;
 }
 
-
 .search-text-input,
 .popup-text-input,
 .comment-text-input
@@ -534,7 +530,6 @@ body > input[type="radio"] {
   pointer-events: none;
 }
 
-
 .text-input:focus + .search-text-input,
 .text-input:valid + .search-text-input,
 .text-input:focus + .subscription-text-input,
@@ -563,9 +558,6 @@ body > input[type="radio"] {
   outline: none;
   color: #8fbdec;
 }
-
-
-
 
 /*----------login----------*/
 
@@ -614,9 +606,7 @@ body > input[type="radio"] {
   color: #ec593c;
 }
 
-
-/*CART*/
-
+/*----------cart----------*/
 
 .header-cart-full:hover .header-button-drop-down {
   display: block;
@@ -736,12 +726,10 @@ body > input[type="radio"] {
   text-align: right;
 }
 
-
 .header-phone {
   font-size: 22px;
   line-height: 27px;
 }
-
 
 /*----------slider----------*/
 
@@ -833,7 +821,6 @@ body > input[type="radio"] {
 
   font-size: 0;
 }
-
 
 .slider-controls label {
   display: inline-block;
@@ -941,7 +928,6 @@ body > input[type="radio"] {
 	font-size: 18px;
 	line-height: 22px;
 	color: #ffffff;
-
 }
 
 .button-buy {
@@ -1019,9 +1005,6 @@ margin-bottom:40px;
   white-space: nowrap;
   left: 10px;
 }
-
-
-
 
 .item-bg {
   display: none;
@@ -1314,12 +1297,10 @@ margin-bottom:40px;
   margin-left: 20px;
 }
 
-
 .location{
-    position: relative;
-    top: 0px;
+  position: relative;
+  top: 0px;
 }
-
 
 .index-contacts {
   position: absolute;
@@ -1372,8 +1353,6 @@ margin-bottom:40px;
   padding-left: 30px;
   padding-right: 25px;
 }
-
-
 
 /*----------footer----------*/
 
@@ -1539,7 +1518,6 @@ margin-bottom:40px;
   color:white;
 }
 
-
 /*----------catalog----------*/
 
 .breadcrumbs {
@@ -1637,7 +1615,6 @@ margin-bottom:40px;
 	padding: 0 24px;
   font-size: 14px;
   font-weight: 500;
-
 }
 
 .filters .slider-title-inner {
@@ -1718,7 +1695,6 @@ margin-bottom:40px;
   color: #fff;
 }
 
-
 .slider-price .slider-content {
 	position: relative;
 	padding: 19px 15px;
@@ -1762,7 +1738,6 @@ margin-bottom:40px;
 
   cursor: pointer;
 }
-
 
 .slider-range-toggle:last-child {
 	left: 125px;
@@ -1876,7 +1851,7 @@ input[type="radio"] {
 	border: 2px solid #fff;
 	bottom: 0;
 	color: white;
-	padding-right: 37px;
+	padding-right: 16px;
 }
 
 .filters-button:hover {
@@ -1888,8 +1863,6 @@ input[type="radio"] {
   background: #fafbfb;
   color: #363636;
 }
-
-
 
 .filters-button:active {
   line-height: 36px;
@@ -2000,7 +1973,6 @@ input[type="radio"] {
   font-weight: 400;
   color: #ffffff;
  }
-
 
 /*----------popup----------*/
 
