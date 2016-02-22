@@ -250,7 +250,6 @@ body > input[type="radio"] {
 
   height: 32px;
 
-
   font-size: 14px;
   line-height: 32px;
   color: #ffffff;
@@ -285,11 +284,11 @@ body > input[type="radio"] {
 .button-search {
   position: relative;
 
+	height: 20px;
   margin-right: 2px;
   padding: 8px 18px;
 
   font-size: 0;
-  border-radius: 50%;
 }
 
 .button-search::before {
@@ -495,10 +494,9 @@ body > input[type="radio"] {
 }
 
 .index-right .subscription-button {
-  float: right;
-  position: absolute;
+
   margin-top: -5px;
-  margin-left: 3px;
+  margin-right: 24px;
 }
 
 .search-text-input,
@@ -1250,6 +1248,7 @@ margin-bottom:40px;
   display: inline-block;
   width: 300px;
   margin-left: 20px;
+	vertical-align: top;
 
   background: rgba(255, 255, 255, 0.1);
 }
@@ -1341,6 +1340,7 @@ margin-bottom:40px;
 .contact-details {
   display: inline-block;
   width: 250px;
+	vertical-align: top;
 
   font-size: 18px;
   line-height: 24px;
@@ -1915,6 +1915,7 @@ input[type="radio"] {
   display: inline-block;
   margin-right: 3px;
   padding: 5px 10px;
+	vertical-align: middle;
 
   font-weight: 400;
   font-size: 14px;
@@ -1952,7 +1953,7 @@ input[type="radio"] {
   content: "<";
 
   position: absolute;
-  top: -5px;
+  top: 0px;
   right: 0px;
 
   font-size: 16px;
@@ -1965,7 +1966,7 @@ input[type="radio"] {
   content: ">";
 
   position: absolute;
-  top: -5px;
+  top: 0px;
   left: -5px;
 
   font-size: 16px;
