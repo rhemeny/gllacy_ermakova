@@ -134,7 +134,7 @@
           </div>
         </header>
 
-        <main class="container clearfix">
+        <main class="clearfix">
           <ul class="breadcrumbs">
             <li>
               <a href="index.html" class="link">Главная</a>&#187;
@@ -146,65 +146,65 @@
           </ul>
           <h1>Сливочное мороженое</h1>
 
-          <div class="input-group">
-			      <form name="filters-form">
-				      <div class="filters clearfix">
-                <div class="filter filter-sort">
 
-                    <p class="slider-title">Сортировка:</p>
-                <div class="filter-bg filter-sort-bg">
-
+            <form class="filter" action="https://echo.htmlacademy.ru" method="get">
+				      <fieldset class="filter-row">
+					      <div class="filter-item filter-sort">
+						      <label for="sort" class="filter-title">Сортировка:</label>
+						      <div class="filter-bg filter-sort-bg">
 							    <select name="sort" id="sort">
 								    <option value="popular">по популярности</option>
 								    <option value="cheap-first">по цене</option>
+								    <option value="fatness">по жирности</option>
 							    </select>
 						    </div>
-                <div>
+					    </div>
 
-
-                <!--div class="select-wrap">
-                  <p class="slider-title">Сортировка:</p>
-                  <div class="slider-content-sort">
-                    <select class="select-inner" name="sort" id="sortSelect">
-                      <option class="option-inner"> по популярности</option>
-                      <option class="option-inner"> по цене</option>
-                    </select>
-                  </div>
-                </div-->
-
-					      <div class="filter filter-price">
-						      <p class="slider-title-price">Цена: 100 руб. − 500 руб.</p>
-                  <div class="slider-content-price">
-                    <div class="scale">
-                    </div>
-                    <div class="range-toggle range-toggle-min"></div>
-                    <div class="range-toggle range-toggle-max"></div>
-                  </div>
-					      </div>
-
-					      <div class="filter slider-fatness">
-						      <p class="slider-title-fatness">Жирность:</p>
-			            <div class="slider-content-fatness">
-							      <input class="fatness-radio" type="radio" id="radio1" name="fatness" value="0"><label for="radio1"> 0%</label>
-							      <input class="fatness-radio" type="radio" id="radio2" checked name="fatness" value="10"><label for="radio2"> до 10%</label>
-							      <input class="fatness-radio" type="radio" id="radio3" name="fatness" value="30"><label for="radio3"> до 30%</label>
-							      <input class="fatness-radio" type="radio" id="radio4" name="fatness" value="40"><label for="radio4"> выше 30%</label>
-						      </div>
-					      </div>
-
-					      <div class="filter-inner">
-						      <p class="slider-title-inner">Наполнители:</p>
-						      <div class="slider-content-inner">
-							      <input class="filler-checkbox" type="checkbox" id="check1" checked name="chokolate" value="chokolate"><label for="check1"> шоколадные</label>
-							      <input class="filler-checkbox" type="checkbox" id="check2" checked name="sugar" value="sugar"><label for="check2"> сахарные присыпки</label>
-							      <input class="filler-checkbox" type="checkbox" id="check3" name="fruits" value="fruits"><label for="check3"> фрукты</label>
-							      <input class="filler-checkbox" type="checkbox" id="check4" name="syrup" value="syrup"><label for="check4"> сиропы</label>
-							      <input class="filler-checkbox" type="checkbox" id="check5" name="jam" value="jam"><label for="check5"> джемы</label>
-						      </div>
-					      </div>
-                <button class="filters-button" type="submit">Применить</button>
-				      </div>
-			      </form>
+					<div class="filter-item filter-price">
+						<span class="filter-title price-controls">
+							Цена: <input class="min-price" type="text" value="100" name="min-price">руб. – <input class="max-price" type="text" value="500" name="max-price">руб.
+						</span>
+						<div class="filter-bg filter-range-controls">
+							<div class="range-controls">
+								<div class="scale"><div class="bar"></div></div>
+								<div class="toggle min-toggle"></div>
+								<div class="toggle max-toggle"></div>
+							</div>
+						</div>
+					</div>
+					<div class="filter-item filter-fatness">
+						<span class="filter-title">Жирность:</span>
+						<div class="filter-bg">
+							<input type="radio" name="fatness" value="zero" id="zero">
+							<label for="zero">0%</label>
+							<input type="radio" name="fatness" value="less-ten" id="less-ten" checked>
+							<label for="less-ten">до 10%</label>
+							<input type="radio" name="fatness" value="less-thirty" id="less-thirty">
+							<label for="less-thirty">до 30%</label>
+							<input type="radio" name="fatness" value="more-thirty" id="more-thirty">
+							<label for="more-thirty">выше 30%</label>
+						</div>
+					</div>
+				</fieldset>
+				<fieldset class="filter-row">
+					<div class="filter-item filter-topping">
+						<span class="filter-title">Наполнители:</span>
+						<div class="filter-bg">
+							<input type="checkbox" name="topping" value="choco" id="choco" checked>
+							<label for="choco">шоколадные</label>
+							<input type="checkbox" name="topping" value="sugar" id="sugar" checked>
+							<label for="sugar">сахарные присыпки</label>
+							<input type="checkbox" name="topping" value="fruits" id="fruits">
+							<label for="fruits">фрукты</label>
+							<input type="checkbox" name="topping" value="syrop" id="syrop">
+							<label for="syrop">сиропы</label>
+							<input type="checkbox" name="topping" value="jam" id="jam">
+							<label for="jam">джемы</label>
+						</div>
+					</div>
+					<button class="button filter-btn">Применить</button>
+				</fieldset>
+			</form>
 		      </div>
 
           <section class="catalog-center">
