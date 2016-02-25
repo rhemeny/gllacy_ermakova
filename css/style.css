@@ -69,6 +69,7 @@ body > input[type="radio"] {
 
   margin-right: 20px;
   margin-top: 10px;
+	margin-left: -7px; /*лого по макету немного выступает за направляющую*/
 }
 
 .main-navigation {
@@ -77,7 +78,6 @@ body > input[type="radio"] {
   float: left;
   width: 550px;
 }
-
 
 .main-navigation > ul {
   margin-top: 20px;
@@ -457,7 +457,7 @@ body > input[type="radio"] {
 }
 
 .text-input {
-  height: 38px;
+  height: 42px;
   padding: 0 15px;
 
   font-size: 14px;
@@ -497,8 +497,8 @@ body > input[type="radio"] {
 
 .index-right .subscription-button {
 
-  margin-top: -5px;
-  margin-right: 24px;
+  margin-top: -4px;
+  margin-right: 13px;
 }
 
 .search-text-input,
@@ -519,8 +519,8 @@ body > input[type="radio"] {
 
 .subscription-text-input {
   position: absolute;
-  top: 8px;
-  left: 35px;
+  top: 10px;
+  left: 38px;
 
   font-size: 16px;
   line-height: 24px;
@@ -731,7 +731,7 @@ body > input[type="radio"] {
 	font-weight: 800;
 }
 
-/*----------slider----------*/
+/*------------slider------------*/
 
 .slide-wrapper {
   position:  relative;
@@ -804,7 +804,8 @@ body > input[type="radio"] {
 
 .index-btn {
   padding: 12px 45px;
-  margin-top: 30px;
+  margin-top: 28px;
+	margin-left: 5px;
 
   font-size: 31px;
   line-height: 41px;
@@ -815,8 +816,8 @@ body > input[type="radio"] {
 
 .slider-controls {
   position: absolute;
-  bottom: 25px;
-  left: 5px;
+  bottom: 21px;
+  left: 0px;
   z-index: 20;
 
   font-size: 0;
@@ -873,7 +874,7 @@ body > input[type="radio"] {
   position: relative;
 
   float:left;
-  width: 566px;
+  width: 562px;
   min-height: 230px;
 
   background: #830823 url("../img/raspberry_bg.jpg") no-repeat;
@@ -884,7 +885,7 @@ body > input[type="radio"] {
   position: relative;
 
   float: right;
-  width: 566px;
+  width: 560px;
   min-height: 230px;
 
   background: #391f14 url("../img/chokolate_bg.jpg") no-repeat;
@@ -892,17 +893,17 @@ body > input[type="radio"] {
 }
 
 .raspberry-block-left h2 {
-  margin-top: 11px;
+  margin-top: 15px;
 	margin-bottom: 14px;
-	margin-left: 26px;
+	margin-left: 21px;
   font-size: 35px;
   line-height: 42px;
   color: #ffffff;
 }
 
 .chokolate-block-right h2 {
-	margin-top: 11px;
-	margin-bottom: 14px;
+	margin-top: 13px;
+	margin-bottom: 16px;
 	margin-left: 20px;
 	font-size: 35px;
 	line-height: 42px;
@@ -910,7 +911,7 @@ body > input[type="radio"] {
 }
 
 .raspberry-block-left p {
-  margin-left: 26px;
+  margin-left: 21px;
   margin-right: 20px;
   margin-bottom: 20px;
 
@@ -920,28 +921,45 @@ body > input[type="radio"] {
 }
 
 .chokolate-block-right p {
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-left: 21px;
+	margin-top: 5px;
 
 	font-size: 18px;
 	line-height: 22px;
 	color: #ffffff;
 }
 
-.button-buy {
+.button-buy-raspberry {
   position: absolute;
-  bottom: 30px;
-  right: 21px;
+  bottom: 22px;
+  right: 23px;
+}
+
+.button-buy-chokolate {
+  position: absolute;
+  bottom: 29px;
+  right: 19px;
 }
 
 .index-content-promo{
-margin-bottom:40px;
+	margin-bottom: 41px;
 }
 
 /*----------main catalog----------*/
 
 .index-catalog {
+  margin-bottom: 21px;
+
+  font-size: 0px;
+}
+
+.index-catalog-hit {
+  margin-bottom: 10px;
+
+  font-size: 0px;
+}
+
+.index-catalog-catalog {
   margin-bottom: 10px;
 
   font-size: 0px;
@@ -967,8 +985,8 @@ margin-bottom:40px;
 	vertical-align: top;
 
 	width: 23.26%;
-	margin-right: 25px;
-	margin-bottom: 37px;
+	margin-right: 26px;
+	margin-bottom: 40px;
 
 	font-size: 14px;
 	position: relative;
@@ -982,8 +1000,8 @@ margin-bottom:40px;
   vertical-align: top;
 
   width: 23.26%;
-  margin-right: 22px;
-  margin-bottom: 37px;
+  margin-right: 26px;
+  margin-bottom: 40px;
 
   font-size: 14px;
   position: relative;
@@ -993,7 +1011,6 @@ margin-bottom:40px;
 .catalog-item-icecream-index .item-content {
   position: relative;
   z-index: 1;
-
 }
 
 .catalog-item-icecream-index:hover a,
@@ -1105,8 +1122,8 @@ margin-bottom:40px;
 
 .catalog-price-icecream-index {
   position: absolute;
-  bottom: 18px;
-  margin-left: 8px;
+  bottom: 9px;
+  margin-left: 3px;
 
   font-size: 45px;
   line-height: 54px;
@@ -1139,16 +1156,16 @@ margin-bottom:40px;
   line-height: 22px;
   font-weight: 400;
   color: #323232;
-	margin-bottom: 50px;
-	margin-top: -19px;
+	margin-bottom: 47px;
+	margin-top: -23px;
 
 	background: #ece1cb url("../img/waffle_bg.jpg");
   border-radius: 15px;
 }
 
 .index-center h3 {
-  margin-left: 27px;
-  padding-top: 23px;
+  margin-left: 22px;
+  padding-top: 24px;
 
   font-size: 24px;
   line-height: 30px;
@@ -1157,46 +1174,47 @@ margin-bottom:40px;
 
 .index-center-left .left-top {
   width: 480px;
-  padding-left: 83px;
-  padding-top: 9px;
+  padding-left: 79px;
+  padding-top: 10px;
 
-  background-image: url(../img/production.svg);
+  background-image: url("../img/production.svg");
   background-size: 47px;
   background-repeat: no-repeat;
-  background-position: 29px 0px;
+  background-position: 25px 0px;
 }
 
 .index-center-left .left-bottom {
   width: 480px;
-  padding-left: 85px;
-  padding-top: 6px;
+  padding-left: 78px;
+  padding-top: 4px;
 
-  background-image: url(../img/ingredients.svg);
-  background-size: 47px;
-  background-repeat: no-repeat;
-  background-position: 30px -1px;
-}
-
-.index-center-right .right-bottom {
-  width: 480px;
-  padding-left: 82px;
-  padding-top: 5px;
-
-  background-image: url(../img/delivery.svg);
+  background-image: url("../img/ingredients.svg");
   background-size: 47px;
   background-repeat: no-repeat;
   background-position: 24px 0px;
 }
 
-.index-center-right .right-top-p {
-  width: 500px;
-  padding-left: 89px;
-  padding-top:16px;
+.index-center-right .right-bottom {
+  width: 480px;
+  padding-left: 82px;
+  padding-top: 4px;
+	padding-right: 20px;
 
-  background-image: url(../img/purchase.svg);
+  background-image: url("../img/delivery.svg");
   background-size: 47px;
   background-repeat: no-repeat;
-  background-position: 23px 4px;
+  background-position: 25px 0px;
+}
+
+.index-center-right .right-top-p {
+  width: 480px;
+  padding-left: 81px;
+  padding-top:18px;
+
+  background-image: url("../img/purchase.svg");
+  background-size: 47px;
+  background-repeat: no-repeat;
+  background-position: 24px 6px;
 }
 
 .index-center-left{
@@ -1210,13 +1228,13 @@ margin-bottom:40px;
 }
 
 .blog-subscribe {
-	margin-bottom:30px;
+	margin-bottom:32px;
 }
 
 
 .index-right {
 	float:right;
-	width: 566px;
+	width: 565px;
 	min-height: 220px;
 
 	background: #f8f7f4 url("../img/right-pattern.png") repeat;
@@ -1227,7 +1245,7 @@ margin-bottom:40px;
 
 .index-right  form {
   margin: 5px;
-  padding-top: 6px;
+  padding-top: 4px;
   min-height: 210px;
 
   border-radius: 15px;
@@ -1235,8 +1253,7 @@ margin-bottom:40px;
 }
 
 .index-right  p {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 28px;
   margin-bottom: 39px;
   margin-top: 22px;
 
@@ -1248,8 +1265,8 @@ margin-bottom:40px;
 }
 
 .index-right  input {
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: 26px;
+  margin-right: 13px;
   margin-bottom: 20px;
   padding: 10px;
 
@@ -1286,8 +1303,8 @@ margin-bottom:40px;
 }
 
 .index-left h4 {
-	position:relative;
-	margin-left: 28px;
+	position: relative;
+	margin-left: 21px;
   margin-top: 23px;
 
   font-family: "Roboto", "Arial", sans-serif;
@@ -1298,13 +1315,13 @@ margin-bottom:40px;
 }
 
 .index-left .link {
-	position:relative;
+	position: relative;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
   color: #353535;
 	margin-top: -14px;
-  margin-left: 29px;
+  margin-left: 21px;
 
   text-decoration: underline;
 }
@@ -1389,8 +1406,8 @@ margin-bottom:40px;
 
 .index-contacts {
   position: absolute;
-  top: 71px;
-  right: 24px;
+  top: 72px;
+  right: 21px;
   width: 300px;
   min-height: 305px;
   z-index: 15;
@@ -1487,8 +1504,7 @@ margin-bottom:40px;
   display: inline-block;
   width: 31px;
   height: 31px;
-	margin-right: -3px;
-  margin-left: 10px;
+	margin-right: 6px;
   margin-top: 3px;
 	font-size: 0;
   vertical-align: top;
@@ -1520,32 +1536,31 @@ margin-bottom:40px;
 }
 
 .social-btn-inst {
-	background: url("../img/instagram.svg") no-repeat center;
+	background: url("../img/instagram.svg") no-repeat;
 
 }
 
 .social-btn-vk {
-	background: url("../img/vkontakte.svg") no-repeat center;
-
+	background: url("../img/vkontakte.svg") no-repeat ;
 }
 
 .footer-links {
 	width: 350px;
   margin:0 auto;
 
-  padding-top: 37px;
+  padding-top: 33px;
   padding-bottom: 30px;
 }
 
 .footer-links-left {
   float: left;
-  padding-left: 32px;
+  padding-left: 25px;
   width: 120px;
 }
 
 .footer-links-right {
 	position: relative;
-	left: -5px;
+	left: -12px;
   float: right;
   width: 170px;
 }
@@ -1573,8 +1588,8 @@ margin-bottom:40px;
 }
 
 .footer-copyright img {
-	margin-left: 24px;
-  margin-top: 21px;
+	margin-left: 19px;
+  margin-top: 20px;
   margin-bottom: 3px;
 }
 
@@ -1594,7 +1609,7 @@ margin-bottom:40px;
 }
 
 .footer-copyright-catalog img {
-	margin-left: 27px;
+	margin-left: 18px;
   margin-top: 39px;
   margin-bottom: 3px;
 }
@@ -1613,7 +1628,6 @@ margin-bottom:40px;
 
 .breadcrumbs {
 	margin-top: 26px;
-	margin-left: 8px;
 	margin-bottom: 7px;
 	padding: 0;
 	list-style: none;
@@ -1658,8 +1672,6 @@ margin-bottom:40px;
 	border: none;
 	margin: 0;
 	margin-bottom: 15px;
-	margin-left: 9px;
-	margin-bottom: 14px;
 }
 
 .filter-row:last-child {
@@ -1698,6 +1710,7 @@ margin-bottom:40px;
 	height: 35px;
 	vertical-align: bottom;
 	padding: 0;
+	margin-left: 1px;
 	font-size: 16px;
 	line-height: 30px;
 	background: transparent;
@@ -1727,7 +1740,7 @@ margin-bottom:40px;
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: 5px;
-	padding-left: 15px;
+	padding-left: 16px;
 	font-size: 14px;
 	font-weight: 500;
 }
@@ -1758,7 +1771,7 @@ margin-bottom:40px;
 	width: 100%;
 	height: 25px;
 	margin-left: -3px;
-	color:white;
+	color: white;
 	background: none;
 	border: none;
 	outline: none;
@@ -1770,13 +1783,12 @@ margin-bottom:40px;
 }
 
 
-
 .filter-sort-bg select::-ms-expand {
 	display: none;
 }
 
 .filter-sort-bg::after {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 15px;
 	right: 15px;
@@ -1797,11 +1809,14 @@ margin-bottom:40px;
 	border-top-color: #343434;
 }
 
-.filter-sort-bg:hover select,
+
 .filter-sort-bg select:focus{
 	border: none;
 	outline: none;
-	color:black;
+}
+
+.filter-sort-bg:hover select{
+	color: black;
 }
 
 .filter-sort-bg option {
@@ -1875,20 +1890,17 @@ margin-bottom:40px;
 	display: inline-block;
 	position: relative;
 	margin-right: 20px;
-	padding-left: 33px; /*в зависимости от font-weight, проверить по макету*/
+	padding-left: 33px;
 	font-size: 16px;
 	cursor: pointer;
 	vertical-align: top;
-
 }
 
 .filter-bg label {
 	color:white;
 	font-size: 16px;
 	font-weight: 500;
-
 }
-
 
 .filter-bg input[type="checkbox"] + label {
 	margin-right: 20px;
@@ -1901,7 +1913,7 @@ margin-bottom:40px;
 
 .filter-bg input[type="radio"] + label::after,
 .filter-bg input[type="checkbox"] + label::after {
-	content: '';
+	content: "";
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -1929,7 +1941,7 @@ margin-bottom:40px;
 
 .filter-bg input[type="radio"]:checked + label::before,
 .filter-bg input[type="checkbox"]:checked + label::before {
-	content: '';
+	content: "";
 	position: absolute;
 	cursor: pointer;
 }
@@ -1972,12 +1984,7 @@ margin-bottom:40px;
 .filter-item .filter-title {
 	color:white;
 	font-size: 14px;
-
 }
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 .menu-sort ul{
@@ -1991,14 +1998,12 @@ margin-bottom:40px;
   font-weight: 700;
   color: white;
   margin-top: 8px;
-	margin-left: 8px;
 	margin-bottom: 29px;
 }
 
 .catalog-center {
 	position:relative;
-  margin-top: 12px;
-	margin-left: 34px;
+  margin-top: 44px;
 
 	font-size:0px;
 }
@@ -2007,8 +2012,8 @@ margin-bottom:40px;
 
 .pagination {
   margin-bottom: 19px;
-	margin-top: 38px;
-	margin-right: 19px;
+	margin-top: 43px;
+	margin-right: -3px;
 
 	font-size: 0;
 	text-align: right;
